@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background: #1b1b32;
+      }
+
+      .header {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 32px;
+        background-color: #0a0a23;
+        color: #fff;
+        border-bottom: 4px solid #fdb347;
+      }
+
+      .navbar {
+        background-color: #0a0a23;
+        padding: 16px;
+        text-align: center;
+      }
+
+      .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .nav-item {
+        display: inline-block;
+        margin-right: 16px;
+      }
+
+      .nav-item:last-child {
+        margin-right: 0;
+      }
+
+      .nav-item a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px 10px;
+      }
+
+      .gallery img {
+        width: 100%;
+        max-width: 350px;
+        height: 520px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .gallery::after {
+        content: "";
+        width: 350px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 16px;
+        background-color: #0a0a23;
+        color: #fff;
+      }
+
+      @media screen and (max-width: 768px) {
+        .nav-item {
+          display: block;
+          margin: 8px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome To My Gallery</h1>
+      <h1>Enjoy</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="#">Instagram</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="gallery">
+      <img src="1.jpg" alt="image1">
+      <img src="2.jpg" alt="image2">
+      <img src="3.jpg" alt="image3">
+      <img src="4.jpg" alt="image4">
+      <img src="5.jpg" alt="image5">
+      <img src="6.jpg" alt="image6">
+      <img src="7.jpg" alt="image7">
+      <img src="8.jpg" alt="image8">
+      <img src="9.jpg" alt="image9">
+      <img src="10.jpg" alt="image10">
+      <img style="height: auto;" src="11.jpg" alt="image11">
+      <img src="12.jpg" alt="image12">
+      <img src="13.jpg" alt="image13">
+      <img src="14.jpg" alt="image14">
+      <img src="15.jpg" alt="image15">
+      <img src="16.jpg" alt="image16">
+      <img src="17.jpg" alt="image17">
+      <img src="18.jpg" alt="image18">
+      <img src="19.jpg" alt="image19">
+      <img src="20.jpg" alt="image20">
+      <img src="21.jpg" alt="image21">
+      <img src="22.jpg" alt="image22">
+      <img src="23.jpg" alt="image23">
+      <img src="24.jpg" alt="image24">
+      <img src="25.jpg" alt="image25">
+      <img src="26.jpg" alt="image26">
+      <img src="27.jpg" alt="image27">
+      <img src="28.jpg" alt="image28">
+      <img src="29.jpg" alt="image29">
+      <img src="30.jpg" alt="image30">
+      <img src="31.jpg" alt="image31">
+      
+
+      
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p style="color: white;"><a style="color: white;" href="amina gallary.html">Reload Gallary</a></p>
+      <p>&copy; 2023 Shylap Amina. All rights reserved.</p>
+      <p>
+        Designed by: <a style="color: white; font-weight: bolder; font-size: 18px; text-decoration: none;"  href="https://api.whatsapp.com/send?phone=+779491167" target="_blank"> Wizcom Developers</a>
+      </p>
+    </footer>
+  </body>
+</html>
